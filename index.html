@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Exercícios - Generation Bootcamp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark-dimmed.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <header class="header">
+            <div class="profile-info">
+                <i class="fa-brands fa-github fa-2x"></i>
+                <h1>Meus Exercícios JavaScript</h1>
+            </div>
+            <p>Bootcamp Generation Code Showcase</p>
+        </header>
+
+        <div class="github-card">
+
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <i class="fa-solid fa-book"></i> Explorer
+                </div>
+                <ul class="file-list" id="fileList">
+                </ul>
+            </div>
+
+            <div class="content-area">
+
+                <div class="tab-header">
+                    <div class="tab active" id="currentFileTab">
+                        <i class="fa-brands fa-js"></i> <span id="currentFileName">Selecione um arquivo</span>
+                    </div>
+                </div>
+
+                <div class="split-view">
+
+                    <div class="panel code-panel">
+                        <div class="panel-header">
+                            <span>Código Fonte</span>
+                            <button id="runBtn" class="run-btn"><i class="fa-solid fa-play"></i> Executar</button>
+                        </div>
+                        <div class="editor-container">
+                            <pre><code class="language-javascript" id="codeDisplay">// Selecione um exercício para ver o código...</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="panel output-panel">
+                        <div class="panel-header">
+                            <span>Terminal / Console</span>
+                            <button id="clearBtn" class="clear-btn"><i class="fa-solid fa-trash"></i> Limpar</button>
+                        </div>
+                        <div class="terminal-body" id="consoleOutput">
+                            <div class="terminal-line text-muted">Aguardando execução...</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
