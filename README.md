@@ -1,15 +1,15 @@
-# 📚 Meus Exercícios - Generation Bootcamp
+# Meus Exercícios - Generation Bootcamp
 
 Bem-vindo ao repositório dos meus exercícios de lógica de programação em JavaScript, desenvolvidos durante o Bootcamp da Generation Brasil. Este projeto apresenta uma interface interativa que simula um ambiente de desenvolvimento, permitindo visualizar e executar os códigos diretamente no navegador.
 
-## 🚀 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi criado para organizar e demonstrar a evolução do aprendizado em JavaScript. A aplicação web oferece uma experiência imersiva com:
 - **Editor de Código**: Visualização do código fonte com syntax highlighting (realce de sintaxe).
 - **Terminal Simulado**: Entrada e saída de dados interativa, assim como em um console real.
 - **Navegação Simples**: Alternância rápida entre diferentes listas de exercícios.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 O projeto foi construído utilizando tecnologias web modernas:
 
@@ -20,7 +20,7 @@ O projeto foi construído utilizando tecnologias web modernas:
   - [Font Awesome](https://fontawesome.com/): Ícones para interface.
   - [Highlight.js](https://highlightjs.org/): Realce de sintaxe para os blocos de código.
 
-## 📋 Lista de Exercícios
+## Lista de Exercícios
 
 Os exercícios estão organizados por tópicos fundamentais da linguagem:
 
@@ -30,7 +30,7 @@ Os exercícios estão organizados por tópicos fundamentais da linguagem:
 4.  **Vetores (Arrays)**: Pesquisa de elementos e indexação.
 5.  **Matrizes (Arrays Multidimensionais)**: Manipulação de dados em grade, cálculo de diagonais principais e secundárias.
 
-## 💻 Como Executar
+## Como Executar
 
 Para testar o projeto localmente:
 

@@ -113,6 +113,15 @@ body {
     color: #f7df1e;
 }
 
+.file-list a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
 .content-area {
     flex: 1;
     display: flex;
